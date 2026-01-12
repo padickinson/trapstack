@@ -1,0 +1,136 @@
+:root {
+    --text: #111;
+    --muted: #555;
+    --link: #0066cc;
+    --border: #e6e6e6;
+    --panel: #f7f7f7;
+  }
+  
+  * { box-sizing: border-box; }
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 3.5rem;
+  }
+  
+  header.site-header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1.25rem;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  
+  .brand a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  
+  .brand a:hover {
+    text-decoration: underline;
+  }
+  
+  .brand h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .tagline {
+    font-style: italic;
+    color: var(--muted);
+    margin: 0.35rem 0 0;
+  }
+  
+  nav.site-nav {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  nav.site-nav a {
+    color: var(--link);
+    text-decoration: none;
+    padding: 0.25rem 0;
+  }
+  
+  nav.site-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main h1.page-title {
+    font-size: 2.4rem;
+    margin: 0 0 0.25rem 0;
+  }
+  
+  .subtle {
+    color: var(--muted);
+    font-style: italic;
+    margin: 0 0 1.75rem 0;
+  }
+  
+  a {
+    color: var(--link);
+    text-decoration: none;
+  }
+  
+  a:hover { text-decoration: underline; }
+  
+  p { margin: 1rem 0; }
+  
+  ul {
+    margin: 0.75rem 0 1.25rem 1.25rem;
+  }
+  
+  li { margin: 0.45rem 0; }
+  
+  .note {
+    background: var(--panel);
+    padding: 1rem 1.25rem;
+    border-left: 4px solid #ddd;
+    margin: 1.75rem 0;
+  }
+  
+  .card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    margin: 1rem 0;
+  }
+  
+  .card h2 {
+    font-size: 1.25rem;
+    margin: 0 0 0.35rem 0;
+  }
+  
+  .card p {
+    margin: 0.5rem 0;
+  }
+  
+  hr.sep {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2rem 0;
+  }
+  
+  footer.site-footer {
+    border-top: 1px solid var(--border);
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    color: #666;
+    font-size: 0.95rem;
+  }
