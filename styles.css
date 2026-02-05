@@ -104,6 +104,45 @@
     border-left: 4px solid #ddd;
     margin: 1.75rem 0;
   }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+    margin: 1.25rem 0 2rem;
+  }
+
+  .media-card {
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 0.85rem;
+    background: #fff;
+    margin: 0;
+  }
+
+  .media-card img,
+  .media-card video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .media-card figcaption {
+    margin-top: 0.75rem;
+  }
+
+  .media-title {
+    font-weight: 600;
+    margin: 0 0 0.35rem 0;
+  }
+
+  .media-meta,
+  .media-note {
+    color: var(--muted);
+    margin: 0.2rem 0;
+    font-size: 0.95rem;
+  }
   
   .card {
     border: 1px solid var(--border);
