@@ -15,85 +15,31 @@
 <body>
   <div class="container">
 
-    <header class="site-header">
-      <div class="brand">
-        <h1><a href="index.html">TrapStack</a></h1>
-      </div>
-      <p class="tagline">A collection of dumb ideas involving spring-loaded traps.</p>
-
-      <nav class="site-nav" aria-label="Site navigation">
-        <a href="index.html">Home</a>
-        <a href="trap-tower.html">Trap Tower</a>
-        <a href="trap-pile.html">Trap Pile</a>
-        <a href="variants.html">Variants</a>
-        <a href="submit.html">Submit</a>
-      </nav>
-    </header>
+    <div data-include="partials/header.html"></div>
 
     <main>
       <h1 class="page-title">Variants</h1>
       <p class="subtle">
-        These are not official. They’re just things people do once you put traps in a pile.
+        No official variants yet beyond Trap Tower and Trap Pile. If you invent one, we want it.
       </p>
 
-      <h2>Major variants</h2>
       <div class="card">
         <h2>Trap Tower</h2>
         <p>
-          The original game: build the tallest freestanding structure using only loaded
-          mousetraps.
+          Build the tallest freestanding stack you can using only loaded mousetraps.
         </p>
         <p>
-          <a href="trap-tower.html">Read how we played it →</a>
+          <a href="trap-tower.html">See Trap Tower →</a>
         </p>
       </div>
 
       <div class="card">
         <h2>Trap Pile (Mousetrap Jenga)</h2>
         <p>
-          Players take turns placing loaded traps on a plate. If anything goes off, you
-          replace it. The game ends when someone sets off the pile.
+          Players take turns placing one loaded trap on a plate until someone sets it off.
         </p>
         <p>
-          <a href="trap-pile.html">Read the rules →</a>
-        </p>
-      </div>
-
-      <h2>Other variants</h2>
-
-      <div class="card">
-        <h2>Table Turns (Two-Touch Rule)</h2>
-        <p>
-          A smaller group takes turns placing loaded mousetraps on a small table.
-          The only constraint: each new trap must touch at least two others.
-        </p>
-        <ul>
-          <li>Players take turns placing a single loaded trap</li>
-          <li>Each new trap must touch at least two existing traps</li>
-          <li>The structure grows outward and upward until it doesn’t</li>
-        </ul>
-        <p>
-          We haven’t tested this version as thoroughly, but the two-touch constraint creates
-          interesting placement decisions and rapid failures.
-        </p>
-      </div>
-
-      <div class="card">
-        <h2>Timed Relays</h2>
-        <p>
-          Same goal as Trap Tower, but teammates can only place traps during a short “turn window”
-          (e.g., 10 seconds), then rotate. It’s less about engineering and more about panic.
-        </p>
-        <p class="subtle">
-          (If you try this, send your timing rules — the details matter.)
-        </p>
-      </div>
-
-      <div class="card">
-        <h2>Silence Round</h2>
-        <p>
-          One minute of the game must be played in total silence. No coaching, no warnings, no
-          yelling “WAIT WAIT WAIT.” It’s surprisingly hard.
+          <a href="trap-pile.html">See Trap Pile →</a>
         </p>
       </div>
 
@@ -101,14 +47,13 @@
         Have a variant that actually works (or fails spectacularly)?
         <a href="submit.html">Send it in.</a>
       </div>
+
+      <div data-include="partials/fund-card.html"></div>
     </main>
 
-    <footer class="site-footer">
-      <p>
-        Variants are encouraged. If someone claims they “solved” it, they probably didn’t.
-      </p>
-    </footer>
+    <div data-include="partials/footer.html"></div>
 
   </div>
+  <script src="includes.js"></script>
 </body>
 </html>

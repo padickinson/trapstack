@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Trap Pile — TrapStack</title>
-  <meta name="description" content="Trap Pile (aka Mousetrap Jenga) is a turn-based TrapStack variant where players stack loaded traps on a plate until someone sets it off." />
+  <meta name="description" content="Trap Pile is a fast, easy-to-learn TrapStack game for any number of players: stack traps on a plate until someone sets it off." />
   <link rel="stylesheet" href="styles.css" />
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -15,32 +15,47 @@
 <body>
   <div class="container">
 
-    <header class="site-header">
-      <div class="brand">
-        <h1><a href="index.html">TrapStack</a></h1>
-      </div>
-      <p class="tagline">A collection of dumb ideas involving spring-loaded traps.</p>
-
-      <nav class="site-nav" aria-label="Site navigation">
-        <a href="index.html">Home</a>
-        <a href="trap-tower.html">Trap Tower</a>
-        <a href="trap-pile.html">Trap Pile</a>
-        <a href="variants.html">Variants</a>
-        <a href="submit.html">Submit</a>
-      </nav>
-    </header>
+    <div data-include="partials/header.html"></div>
 
     <main>
       <h1 class="page-title">Trap Pile</h1>
-      <p class="subtle">Also known as Mousetrap Jenga.</p>
-
+      <p class="subtle">AKA Mousetrap Jenga. Stack loaded mousetraps on a plate until someone sets it off.</p>
       <p>
-        Trap Pile is the second major TrapStack variant. It’s turn-based, fast, and a little
-        mean. Players take turns stacking loaded mousetraps on a plate until someone sets
-        off the pile.
+        This game is easy to play anywhere, and guaranteed to pull in bystanders for more snapping fun! 
+      </p>
+      <p>
+        Trap Pile started when I saw people playing some version of this at Burning Man. I have
+        no idea what rules they were using, so I made some up.
       </p>
 
-      <h2>How we played it</h2>
+      <p>
+        The vibe is fast, chaotic, and easy to teach to any number of players. The “on a
+        plate” restriction keeps the space tight and ends things quickly. So far the biggest
+        piles we’ve seen were around 30 traps on a dinner plate.
+      </p>
+     
+
+      <div class="gallery">
+        <figure class="media-card">
+          <img src="media/pile/IMG_9055.jpeg" alt="Trap Pile on a plate, still image." loading="lazy" />
+          <figcaption>
+            <p class="media-title">Trap Pile build</p>
+            <p class="media-meta">Whistler, BC · 1/31/2026</p>
+          </figcaption>
+        </figure>
+        <figure class="media-card">
+          <video controls preload="metadata" playsinline>
+            <source src="media/pile/IMG_9058.m4v" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <figcaption>
+            <p class="media-title">Trap Pile in motion</p>
+            <p class="media-meta">Whistler, BC · 1/31/2026</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <h2>How to play</h2>
       <ul>
         <li>Players take turns placing one loaded trap on the plate</li>
         <li>If you knock a trap off the plate, you must replace it</li>
@@ -48,27 +63,87 @@
         <li>The game ends when someone sets off the pile</li>
       </ul>
 
-      <p>
-        The tension comes from the plate: there’s no floor to sprawl across, so every placement
-        is a judgment call. It feels like Jenga, but with consequences.
-      </p>
+      
 
       <div class="note">
-        <strong>Practical note:</strong><br />
-        Use a sturdy plate or tray with a flat base. You want a little bite, not a full detonation.
+        <strong>Practical notes:</strong><br />
+        <ul>
+          <li>Plates can get chipped, so maybe don't use Grandma's china.</li>
+          <li>Suggested: ~40 traps is a good starting point if you're using a dinner plate.</li>
+      </ul>
       </div>
+
+      <h2>Community submissions</h2>
+      <p class="subtle">
+        Pile builds and chaos from people playing their own versions. Got a ridiculous stack?
+        Send it in.
+      </p>
+      
+      <div class="gallery">
+        <figure class="media-card">
+          <img src="media/pile/IMG_9055.jpeg" alt="TrapStack pile variant, still image." loading="lazy" />
+          <figcaption>
+            <p class="media-title">Submission</p>
+            <p class="media-meta">Submitter: Paul · Date: 1/31/2026 · Location: Whistler, BC</p>
+            <p class="media-note">Comment: This is going to be trouble...</p>
+          </figcaption>
+        </figure>
+        <figure class="media-card">
+          <video controls preload="metadata" playsinline>
+            <source src="media/pile/IMG_9058.m4v" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <figcaption>
+            <p class="media-title">Submission</p>
+            <p class="media-meta">Submitter: Ben · Date: 1/31/2026 · Location: Whistler, BC</p>
+            <p class="media-note">Comment: Boom!</p>
+          </figcaption>
+        </figure>
+        <figure class="media-card">
+          <video controls preload="metadata" playsinline>
+            <source src="media/pile/IMG_9089.m4v" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <figcaption>
+            <p class="media-title">Submission</p>
+            <p class="media-meta">Submitter: Paul · Date: 2/4/2026 · Location: Piedmont, CA</p>
+            <p class="media-note">Comment: Careful... careful!</p>
+          </figcaption>
+        </figure>
+        <figure class="media-card">
+          <video controls preload="metadata" playsinline>
+            <source src="media/pile/IMG_9090.m4v" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <figcaption>
+            <p class="media-title">Submission</p>
+            <p class="media-meta">Submitter: Jim · Date: 2/4/2026 · Location: Piedmont, CA</p>
+            <p class="media-note">Comment: Well, could have been worse...</p>
+          </figcaption>
+        </figure>
+        <figure class="media-card">
+          <video controls preload="metadata" playsinline>
+            <source src="media/pile/IMG_9091.m4v" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <figcaption>
+            <p class="media-title">Submission</p>
+            <p class="media-meta">Submitter: Sam · Date: 2/4/2026 · Location: Piedmont, CA</p>
+            <p class="media-note">Comment: Whoops!</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div data-include="partials/fund-card.html"></div>
 
       <p>
         Want to build instead of take turns? Head to <a href="trap-tower.html">Trap Tower</a>.
       </p>
     </main>
 
-    <footer class="site-footer">
-      <p>
-        Trap Pile is a community favorite. If your group plays it differently, send your rules.
-      </p>
-    </footer>
+    <div data-include="partials/footer.html"></div>
 
   </div>
+  <script src="includes.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Trap Tower — TrapStack</title>
-  <meta name="description" content="Trap Tower is the original TrapStack game: build the tallest freestanding structure you can using only loaded mousetraps." />
+  <meta name="description" content="Trap Tower is a competitive engineering challenge where teams or solo builders stack loaded mousetraps into the tallest freestanding structure." />
   <link rel="stylesheet" href="styles.css" />
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -15,49 +15,52 @@
 <body>
   <div class="container">
 
-    <header class="site-header">
-      <div class="brand">
-        <h1><a href="index.html">TrapStack</a></h1>
-      </div>
-      <p class="tagline">A collection of dumb ideas involving spring-loaded traps.</p>
-
-      <nav class="site-nav" aria-label="Site navigation">
-        <a href="index.html">Home</a>
-        <a href="trap-tower.html">Trap Tower</a>
-        <a href="trap-pile.html">Trap Pile</a>
-        <a href="variants.html">Variants</a>
-        <a href="submit.html">Submit</a>
-      </nav>
-    </header>
+    <div data-include="partials/header.html"></div>
 
     <main>
       <h1 class="page-title">Trap Tower</h1>
-      <p class="subtle">The original TrapStack game.</p>
+      <p class="subtle">Brains, balance, and a steady hand.</p>
 
       <p>
-        Trap Tower is a simple idea that turns out to be much harder than it looks:
-        build the tallest freestanding structure you can using only loaded mousetraps.
+        Trap Tower started as a bachelor party game: stack loaded mousetraps on the floor
+        and see how high you can get. That first event was photo-free (some nights are like that),
+        but since then, we’ve captured a few efforts.
       </p>
 
       <p>
-        No base. No glue. No tools. Just nerve, coordination, and a growing sense
-        that this might have been a bad idea.
+        The game turns out to be pretty pathological. Mousetraps don’t stack well, and mistakes
+        are catastrophic (and hilarious). See how high you can go before the whole thing blows up
+        in your face.
       </p>
 
-      <p class="subtle">The original game wasn’t photographed. Some nights are like that.</p>
+      <div class="gallery">
+        <figure class="media-card">
+          <img src="media/tower/IMG_9041.jpeg" alt="Trap Tower build, still image." loading="lazy" />
+          <figcaption>
+            <p class="media-title">Trap Tower build</p>
+            <p class="media-meta">Whistler, BC · 1/30/2026</p>
+          </figcaption>
+        </figure>
+        <figure class="media-card">
+          <img src="media/tower/IMG_9042.jpeg" alt="Trap Tower Inukshuk build, still image." loading="lazy" />
+          <figcaption>
+            <p class="media-title">The Inukshuk</p>
+            <p class="media-meta">Whistler, BC · 1/30/2026</p>
+          </figcaption>
+        </figure>
+      </div>
 
-      <h2>How we played it</h2>
+      <h2>How we played it the first time</h2>
       <ul>
         <li>Four teams of four slightly inebriated people each</li>
-        <li>~100 mousetraps</li>
         <li>Built directly on the floor</li>
         <li>20-minute time limit</li>
         <li>Only rule: build the tallest structure you can using <em>only loaded mousetraps</em></li>
       </ul>
-
+      
       <p>
-        We didn’t impose constraints on orientation, symmetry, or design. Anything went, as long
-        as the structure was freestanding.
+      No constraints on orientation, symmetry, or design. Anything goes, as long
+        as the structure is freestanding.
       </p>
 
       <p>
@@ -75,7 +78,6 @@
       <h2>Mousetraps</h2>
       <p>
         We used standard Victor-style wooden mousetraps without the plastic bait pedal.
-        Approximately one hundred traps was more than enough.
       </p>
 
       <p>
@@ -86,67 +88,10 @@
 
       <h2>Community submissions</h2>
       <p class="subtle">
-        Photos and videos from people building their own TrapStack towers. Details can be
-        added or updated as submissions come in.
+        Photos and videos from recent Trap Tower builds. If you have a great collapse or a new
+        record, send it in.
       </p>
 
-      <h3>Pile / Jenga variant</h3>
-      <div class="gallery">
-        <figure class="media-card">
-          <img src="media/pile/IMG_9055.jpeg" alt="TrapStack pile variant, still image." loading="lazy" />
-          <figcaption>
-            <p class="media-title">Submission</p>
-            <p class="media-meta">Submitter: Paul · Date: 1/31/2026 · Location: Whistler, BC</p>
-            <p class="media-note">Comment: This is going to be trouble...</p>
-          </figcaption>
-        </figure>
-        <figure class="media-card">
-          <video controls preload="metadata" playsinline>
-            <source src="media/pile/IMG_9058.m4v" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <figcaption>
-            <p class="media-title">Submission</p>
-            <p class="media-meta">Submitter: Ben · Date: 1/31/2026 · Location: Whistler, BC</p>
-            <p class="media-note">Comment: Boom!</p>
-          </figcaption>
-        </figure>
-        <figure class="media-card">
-          <video controls preload="metadata" playsinline>
-            <source src="media/pile/IMG_9089.m4v" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <figcaption>
-            <p class="media-title">Submission</p>
-            <p class="media-meta">Submitter: Paul · Date: 2/4/2026 · Location: Piedmont, CA</p>
-            <p class="media-note">Comment: Careful... careful!</p>
-          </figcaption>
-        </figure>
-        <figure class="media-card">
-          <video controls preload="metadata" playsinline>
-            <source src="media/pile/IMG_9090.m4v" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <figcaption>
-            <p class="media-title">Submission</p>
-            <p class="media-meta">Submitter: Jim · Date: 2/4/2026 · Location: Piedmont, CA</p>
-            <p class="media-note">Comment: Well, could have been worse...</p>
-          </figcaption>
-        </figure>
-        <figure class="media-card">
-          <video controls preload="metadata" playsinline>
-            <source src="media/pile/IMG_9091.m4v" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <figcaption>
-            <p class="media-title">Submission</p>
-            <p class="media-meta">Submitter: Sam · Date: 2/4/2026 · Location: Piedmont, CA</p>
-            <p class="media-note">Comment: Whoops!</p>
-          </figcaption>
-        </figure>
-      </div>
-
-      <h3>Trap Tower builds</h3>
       <div class="gallery">
         <figure class="media-card">
           <img src="media/tower/IMG_9041.jpeg" alt="Trap Tower build, still image." loading="lazy" />
@@ -174,18 +119,13 @@
         </figure>
       </div>
 
-      <p>
-        Want to see a different style of play? Head to <a href="variants.html">Variants</a>.
-      </p>
+      <div data-include="partials/fund-card.html"></div>
+
     </main>
 
-    <footer class="site-footer">
-      <p>
-        This page documents how we played Trap Tower. Variations are encouraged.
-        This is not advice.
-      </p>
-    </footer>
+    <div data-include="partials/footer.html"></div>
 
   </div>
+  <script src="includes.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>TrapStack</title>
-  <meta name="description" content="TrapStack is a collection of dumb ideas involving spring-loaded traps that somehow turned into fun games at parties." />
+  <meta name="description" content="TrapStack is a collection of spring-loaded trap games: competitive builds, quick party rounds, and plenty of dumb ideas." />
   <link rel="stylesheet" href="styles.css" />
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -15,94 +15,51 @@
 <body>
   <div class="container">
 
-    <header class="site-header">
-      <div class="brand">
-        <h1><a href="index.html">TrapStack</a></h1>
-      </div>
-      <p class="tagline">A collection of dumb ideas involving spring-loaded traps.</p>
-
-      <nav class="site-nav" aria-label="Site navigation">
-        <a href="index.html">Home</a>
-        <a href="trap-tower.html">Trap Tower</a>
-        <a href="trap-pile.html">Trap Pile</a>
-        <a href="variants.html">Variants</a>
-        <a href="submit.html">Submit</a>
-      </nav>
-    </header>
+    <div data-include="partials/header.html"></div>
 
     <main>
       <h1 class="page-title">Welcome to TrapStack</h1>
-      <p class="subtle">This is documentation, not a product launch.</p>
+      <p class="subtle">Mouse traps aren't toys, but they're fun to play with!
 
-      <p>
-        TrapStack started at a bachelor party when we stacked loaded mousetraps on the floor
-        to see how high we could go.
       </p>
 
       <p>
-        It was chaotic. People flinched. Traps snapped.
-        Nobody got hurt. Two layers won.
-      </p>
+        TrapStack started at a bachelor party when we stacked loaded mousetraps on the 
+        floor to see how high we could go. Traps flew! Fingers were snapped! Grown men
+         squealed like little girls! A new classic game was born.
+      <p></p>
+         Check out the games below, and share your triumphs and tragedies.
 
-      <p>
-        This site is a home for that original game (Trap Tower) and any variations or bad ideas
-        people have tried since. The goal isn’t fairness. It’s stories.
+
       </p>
 
       <hr class="sep" />
 
-      <div class="card">
-        <h2>Start here: Trap Tower</h2>
-        <p>
-          Build the tallest freestanding structure you can using only loaded mousetraps.
-          No base. No glue. No tools. Just nerve.
-        </p>
-        <p>
-          <a href="trap-tower.html">Read how we played it →</a>
-        </p>
+      <div class="card-grid">
+        <a class="card card-hero card-link" href="trap-tower.html">
+          <h2>Trap Tower</h2>
+          <img src="media/tower/IMG_9048.jpeg" alt="Trap Tower build, still image." loading="lazy" />
+          <p>
+            Build the tallest freestanding stack you can using only loaded mousetraps.
+          </p>
+        </a>
+
+        <a class="card card-hero card-link" href="trap-pile.html">
+          <h2>Trap Pile</h2>
+          <img src="media/pile/IMG_9055.jpeg" alt="Trap Pile on a plate, still image." loading="lazy" />
+          <p>
+            Players take turns placing one loaded trap on a plate until someone sets it off.
+          </p>
+        </a>
       </div>
 
-      <div class="card">
-        <h2>Major variant: Trap Pile</h2>
-        <p>
-          Also known as Mousetrap Jenga. Players take turns placing a loaded trap on a plate
-          until someone sets off the pile.
-        </p>
-        <p>
-          <a href="trap-pile.html">Read the rules →</a>
-        </p>
-      </div>
-
-      <div class="card">
-        <h2>Explore variations</h2>
-        <p>
-          Some people prefer turn-taking constraints, table play, or rules that force traps to
-          touch multiple neighbors. Variants are encouraged.
-        </p>
-        <p>
-          <a href="variants.html">Browse variants →</a>
-        </p>
-      </div>
-
-      <div class="card">
-        <h2>Send photos or stories</h2>
-        <p>
-          Tried this? Had a legendary collapse? Invented a new constraint?
-          Send it along.
-        </p>
-        <p>
-          <a href="submit.html">How to submit →</a>
-        </p>
-      </div>
+      <div data-include="partials/submit-card.html"></div>
+      <div data-include="partials/fund-card.html"></div>
     </main>
 
-    <footer class="site-footer">
-      <p>
-        This site documents how people play these games. It is not advice.
-        Mousetraps are mousetraps. If you do dumb things, do them responsibly.
-      </p>
-    </footer>
+    <div data-include="partials/footer.html"></div>
 
   </div>
+  <script src="includes.js"></script>
 </body>
 </html>

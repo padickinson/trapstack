@@ -15,24 +15,11 @@
 <body>
   <div class="container">
 
-    <header class="site-header">
-      <div class="brand">
-        <h1><a href="index.html">TrapStack</a></h1>
-      </div>
-      <p class="tagline">A collection of dumb ideas involving spring-loaded traps.</p>
-
-      <nav class="site-nav" aria-label="Site navigation">
-        <a href="index.html">Home</a>
-        <a href="trap-tower.html">Trap Tower</a>
-        <a href="trap-pile.html">Trap Pile</a>
-        <a href="variants.html">Variants</a>
-        <a href="submit.html">Submit</a>
-      </nav>
-    </header>
+    <div data-include="partials/header.html"></div>
 
     <main>
       <h1 class="page-title">Submit</h1>
-      <p class="subtle">Photos > rules. Stories > records.</p>
+      <p class="subtle">Share your triumphs and tragedies!</p>
 
       <p>
         If you tried Trap Tower (or invented a variant), I’d love to see it.
@@ -56,15 +43,13 @@
         Please don’t send anything that includes people’s faces unless they’re okay being on the site.
         If you’re not sure, crop it or describe it.
       </p>
+
+      <div data-include="partials/fund-card.html"></div>
     </main>
 
-    <footer class="site-footer">
-      <p>
-        By emailing a submission, you’re giving permission for it to be reposted on TrapStack
-        (with credit if requested). If you change your mind later, say so.
-      </p>
-    </footer>
+    <div data-include="partials/footer.html"></div>
 
   </div>
+  <script src="includes.js"></script>
 </body>
 </html>
