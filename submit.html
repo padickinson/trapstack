@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Submit — TrapStack</title>
   <meta name="description" content="Send photos, stories, and variations to TrapStack." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" />
   <link rel="stylesheet" href="styles.css" />
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -15,7 +18,20 @@
 <body>
   <div class="container">
 
-    <div data-include="partials/header.html"></div>
+    <header class="site-header">
+      <div class="brand">
+        <h1><a href="index.html">TrapStack</a></h1>
+      </div>
+      <p class="tagline">Fun with mousetraps. Don't get snapped!</p>
+
+      <nav class="site-nav" aria-label="Site navigation">
+        <a href="index.html">Home</a>
+        <a href="trap-tower.html">Trap Tower</a>
+        <a href="trap-pile.html">Trap Pile</a>
+        <a href="variants.html">Variants</a>
+        <a href="submit.html">Submit</a>
+      </nav>
+    </header>
 
     <main>
       <h1 class="page-title">Submit</h1>
@@ -38,6 +54,15 @@
         <a href="mailto:hello@trapstack.fun">hello@trapstack.fun</a><br />
         <span class="subtle">If you want your submission credited, include the name you’d like displayed.</span>
       </div>
+
+      <p>
+        What makes a great submission:
+      </p>
+      <ul>
+        <li>Where and when you played</li>
+        <li>Number of traps and any constraints</li>
+        <li>The best moment (or worst collapse)</li>
+      </ul>
 
       <p>
         Please don’t send anything that includes people’s faces unless they’re okay being on the site.

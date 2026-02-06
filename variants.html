@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Variants — TrapStack</title>
   <meta name="description" content="Variants and related ideas people have tried under the TrapStack umbrella." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" />
   <link rel="stylesheet" href="styles.css" />
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -15,13 +18,35 @@
 <body>
   <div class="container">
 
-    <div data-include="partials/header.html"></div>
+    <header class="site-header">
+      <div class="brand">
+        <h1><a href="index.html">TrapStack</a></h1>
+      </div>
+      <p class="tagline">Fun with mousetraps. Don't get snapped!</p>
+
+      <nav class="site-nav" aria-label="Site navigation">
+        <a href="index.html">Home</a>
+        <a href="trap-tower.html">Trap Tower</a>
+        <a href="trap-pile.html">Trap Pile</a>
+        <a href="variants.html">Variants</a>
+        <a href="submit.html">Submit</a>
+      </nav>
+    </header>
 
     <main>
       <h1 class="page-title">Variants</h1>
       <p class="subtle">
         No official variants yet beyond Trap Tower and Trap Pile. If you invent one, we want it.
       </p>
+      <p>
+        A variant is any rule tweak that makes the game feel different: team size, time limits,
+        extra constraints, or a totally new surface to build on.
+      </p>
+      <ul>
+        <li>Smaller plate, fewer traps, faster rounds</li>
+        <li>Blindfolded placements (with a spotter)</li>
+        <li>Only one hand, or only standing pieces</li>
+      </ul>
 
       <div class="card">
         <h2>Trap Tower</h2>

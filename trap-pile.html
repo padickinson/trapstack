@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Trap Pile — TrapStack</title>
   <meta name="description" content="Trap Pile is a fast, easy-to-learn TrapStack game for any number of players: stack traps on a plate until someone sets it off." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" />
   <link rel="stylesheet" href="styles.css" />
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -15,11 +18,25 @@
 <body>
   <div class="container">
 
-    <div data-include="partials/header.html"></div>
+    <header class="site-header">
+      <div class="brand">
+        <h1><a href="index.html">TrapStack</a></h1>
+      </div>
+      <p class="tagline">Fun with mousetraps. Don't get snapped!</p>
+
+      <nav class="site-nav" aria-label="Site navigation">
+        <a href="index.html">Home</a>
+        <a href="trap-tower.html">Trap Tower</a>
+        <a href="trap-pile.html">Trap Pile</a>
+        <a href="variants.html">Variants</a>
+        <a href="submit.html">Submit</a>
+      </nav>
+    </header>
 
     <main>
       <h1 class="page-title">Trap Pile</h1>
       <p class="subtle">AKA Mousetrap Jenga. Stack loaded mousetraps on a plate until someone sets it off.</p>
+      <p class="subtle">Safety note: keep fingers clear of the triggers and set traps away from faces.</p>
       <p>
         This game is easy to play anywhere, and guaranteed to pull in bystanders for more snapping fun! 
       </p>
@@ -73,13 +90,19 @@
       </ul>
       </div>
 
+      <h2>Equipment</h2>
+      <p>
+        Any standard wooden mousetraps work. We’ve had the best luck with Victor-style traps
+        and a dinner plate that you don’t mind chipping or scuffing. Paper plates can do the trick, too.
+      </p>
+
       <h2>Community submissions</h2>
       <p class="subtle">
         Pile builds and chaos from people playing their own versions. Got a ridiculous stack?
         Send it in.
       </p>
       
-      <div class="gallery">
+      <div class="gallery carousel" role="region" aria-label="Trap Pile community submissions">
         <figure class="media-card">
           <img src="media/pile/IMG_9055.jpeg" alt="TrapStack pile variant, still image." loading="lazy" />
           <figcaption>
@@ -136,9 +159,14 @@
 
       <div data-include="partials/fund-card.html"></div>
 
-      <p>
-        Want to build instead of take turns? Head to <a href="trap-tower.html">Trap Tower</a>.
-      </p>
+      <div class="card">
+        <h2>Quick links</h2>
+        <p>
+          Try the build-focused version: <a href="trap-tower.html">Trap Tower</a>. Ready to share your
+          pile? <a href="submit.html">Submit your photos</a>.
+        </p>
+      </div>
+
     </main>
 
     <div data-include="partials/footer.html"></div>

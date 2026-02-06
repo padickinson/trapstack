@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>TrapStack</title>
   <meta name="description" content="TrapStack is a collection of spring-loaded trap games: competitive builds, quick party rounds, and plenty of dumb ideas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" />
   <link rel="stylesheet" href="styles.css" />
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -15,23 +18,40 @@
 <body>
   <div class="container">
 
-    <div data-include="partials/header.html"></div>
+    <header class="site-header">
+      <div class="brand">
+        <h1><a href="index.html">TrapStack</a></h1>
+      </div>
+      <p class="tagline">Fun with mousetraps. Don't get snapped!</p>
+
+      <nav class="site-nav" aria-label="Site navigation">
+        <a href="index.html">Home</a>
+        <a href="trap-tower.html">Trap Tower</a>
+        <a href="trap-pile.html">Trap Pile</a>
+        <a href="variants.html">Variants</a>
+        <a href="submit.html">Submit</a>
+      </nav>
+    </header>
 
     <main>
       <h1 class="page-title">Welcome to TrapStack</h1>
-      <p class="subtle">Mouse traps aren't toys, but they're fun to play with!
+      <p class="subtle">Mouse traps aren't toys, but they're fun to play with.</p>
 
+      <p>
+        TrapStack started at a bachelor party when we stacked loaded mousetraps on the
+        floor to see how high we could go. Traps flew. Fingers were snapped. A new
+        classic game was born.
       </p>
 
       <p>
-        TrapStack started at a bachelor party when we stacked loaded mousetraps on the 
-        floor to see how high we could go. Traps flew! Fingers were snapped! Grown men
-         squealed like little girls! A new classic game was born.
-      <p></p>
-         Check out the games below, and share your triumphs and tragedies.
-
-
+        Check out the games below, then share your triumphs and tragedies.
       </p>
+
+      <ul class="lede-list">
+        <li>Learn the rules in two minutes</li>
+        <li>See real builds and collapses</li>
+        <li>Submit your own chaos</li>
+      </ul>
 
       <hr class="sep" />
 
@@ -48,7 +68,7 @@
           <h2>Trap Pile</h2>
           <img src="media/pile/IMG_9055.jpeg" alt="Trap Pile on a plate, still image." loading="lazy" />
           <p>
-            Players take turns placing one loaded trap on a plate until someone sets it off.
+            Take turns placing loaded traps on a plate until someone sets it off.
           </p>
         </a>
       </div>

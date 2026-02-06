@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Trap Tower — TrapStack</title>
   <meta name="description" content="Trap Tower is a competitive engineering challenge where teams or solo builders stack loaded mousetraps into the tallest freestanding structure." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" />
   <link rel="stylesheet" href="styles.css" />
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -15,7 +18,20 @@
 <body>
   <div class="container">
 
-    <div data-include="partials/header.html"></div>
+    <header class="site-header">
+      <div class="brand">
+        <h1><a href="index.html">TrapStack</a></h1>
+      </div>
+      <p class="tagline">Fun with mousetraps. Don't get snapped!</p>
+
+      <nav class="site-nav" aria-label="Site navigation">
+        <a href="index.html">Home</a>
+        <a href="trap-tower.html">Trap Tower</a>
+        <a href="trap-pile.html">Trap Pile</a>
+        <a href="variants.html">Variants</a>
+        <a href="submit.html">Submit</a>
+      </nav>
+    </header>
 
     <main>
       <h1 class="page-title">Trap Tower</h1>
@@ -33,7 +49,7 @@
         in your face.
       </p>
 
-      <div class="gallery">
+      <div class="gallery carousel" role="region" aria-label="Trap Tower community submissions">
         <figure class="media-card">
           <img src="media/tower/IMG_9041.jpeg" alt="Trap Tower build, still image." loading="lazy" />
           <figcaption>
@@ -120,6 +136,14 @@
       </div>
 
       <div data-include="partials/fund-card.html"></div>
+
+      <div class="card">
+        <h2>Quick links</h2>
+        <p>
+          Prefer a turn-based version? <a href="trap-pile.html">Try Trap Pile</a>. Got a record or a collapse?
+          <a href="submit.html">Submit your photos</a>.
+        </p>
+      </div>
 
     </main>
 
